@@ -1,0 +1,74 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 1240px;
+}
+
+.header{
+    background-color: rgba(28, 28, 41, 0.555);
+}
+
+.barra-de-menu{
+    background-color:rgba(17, 17, 26, 0.555);
+    display: flex;
+    align-items: center;
+    height: 70px;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.contenedor-titulo{
+    text-justify: center;
+    font-size: 30px;
+    padding-left: 15px;
+}
+
+.titulo{
+    color: white;
+}
+
+.contenedor-opciones-menu{
+    width: 50%;
+}
+
+.menu-principal{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.menu-principal__elemento > a:hover{
+    color: white;
+}
+
+.footer{
+    background-color: rgba(28, 28, 41, 0.555);
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.info-pagina{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.info-pagina__motivacion{
+    padding-left: 15px;
+    height: 50%;
+}
+
+.info-pagina__repositorio{
+    padding-left: 15px;
+    height: 50%;
+}
+
+.contacto{
+    width: 50%;
+}
+
+.info-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
